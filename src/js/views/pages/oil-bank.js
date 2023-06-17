@@ -46,44 +46,56 @@ const OilBank = {
 
       <section class="services p-5 mb-5 rounded-2">
          <div class="header-section d-flex flex-column align-items-center mb-4">
-            <h2 class="fs-1">Services</h2>
+            <h2 class="fs-1">Form</h2>
             <p class="col-lg-6 col-10 text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. At porro aliquam delectus perferendis eum neque.</p>
          </div>
-         <div class="row gy-5">
-            <div class="col-lg-4 col-sm-6 d-flex flex-column align-items-center">
-               <div class="service-box rounded-2">
-                  <div class="service-box-img">
-                     <img src="assets/service-storage.png" alt="service image">
-                  </div>
-                  <div class="service-box-desc p-4 d-flex flex-column align-items-center text-center">
-                     <h3 class="fs-4 mb-4 mt-2">How</h3>
-                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit at qui nihil cum fuga facilis?</p>
+         <form id="form" action="" data-multi-step class="d-flex flex-column align-items-center">
+            <div class="d-flex flex-column align-items-center">
+               <div class="input-group mb-2">
+                  <div class="input-group-text" style="color: inherit;">Name</div>
+                  <input type="text" id="name" class="form-control">
+               </div>
+               <div class="input-group mb-2">
+                  <div class="input-group-text" style="color: inherit;">HP Num.</div>
+                  <input type="text" id="hp" class="form-control">
+               </div>
+               <div class="input-group mb-2">
+                  <div class="input-group-text" style="color: inherit;">Address</div>
+                  <input type="text" id="address" class="form-control">
+               </div>
+               <div class="input-group mb-2">
+                  <div class="input-group-text" style="color: inherit;">Qty</div>
+                  <input type="number" id="quantity" class="form-control">
+               </div>
+               <div class="input-group mb-2">
+                  <div class="input-group-text" style="color: inherit;">Price</div>
+                  <input type="text" id="price" class="form-control" placeholder="12000" disabled>
+                  <div class="input-group-text" style="width: 90px; color: inherit;">/ litre</div>
+               </div>
+               <div class="input-group mb-2">
+                  <div class="input-group-text" style="color: inherit;">Total</div>
+                  <input type="text" id="total" class="form-control" disabled>
+               </div>
+            </div>
+            <button id="submitButton" type="submit" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#myModal">Submit</button>
+            <!-- modal -->
+            <div class="modal" id="myModal">
+               <div class="modal-dialog">
+                  <div class="modal-content p-3">
+                     <div class="modal-header">
+                        <h2>Thank You !</h2>
+                        <button class="btn btn-close" data-bs-toggle="modal"></button>
+                     </div>
+                     <div class="modal-body">
+                        <p>Hopefullly you can share your journey to the othe for contribution to our future world 😁</p>
+                     </div>
+                     <div class="footer text-center">
+                        <button class="btn btn-success" data-bs-toggle="modal" id="printButton">OK</button>
+                     </div>
                   </div>
                </div>
             </div>
-            <div class="col-lg-4 col-sm-6 d-flex flex-column align-items-center">
-               <div class="service-box rounded-2">
-                  <div class="service-box-img">
-                     <img src="assets/service-delivery.jpg" alt="service image">
-                  </div>
-                  <div class="service-box-desc p-4 d-flex flex-column align-items-center text-center">
-                     <h3 class="fs-4 mb-4 mt-2">Deliver to You</h3>
-                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit at qui nihil cum fuga facilis?</p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 d-flex flex-column align-items-center">
-               <div class="service-box rounded-2">
-                  <div class="service-box-img">
-                     <img src="assets/service-payment.jpg" alt="service image">
-                  </div>
-                  <div class="service-box-desc p-4 d-flex flex-column align-items-center text-center">
-                     <h3 class="fs-4 mb-4 mt-2">Fast Payment</h3>
-                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit at qui nihil cum fuga facilis?</p>
-                  </div>
-               </div>
-            </div>
-         </div>
+         </form>
       </section>
       `;
    }
