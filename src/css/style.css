@@ -1,0 +1,269 @@
+
+
+:root {
+   /* --text: #041609; */
+   --text : #005848;
+   --accent: #fdf68b;
+   --background: #ffffff;
+   --background-secondary: #f1efef;
+   --primary-button: #22d3b2;
+   --hover-primary-button: #30dfbf;
+   /* --accent: #8f8fc7; */
+}
+
+body, nav {
+   background-color: var(--background);
+   font-family: 'Inter', sans-serif;
+   color: var(--text);
+}
+
+/* Nav */
+nav {
+   min-height: 80px;
+   border-bottom: 1px solid rgb(0, 0, 0, .2);
+}
+
+button.navbar-toggler {
+   border: none;
+}
+
+.nav-link {
+   font-weight: light;
+   color: var(--text);
+   position: relative;
+}
+
+.nav-link::after {
+   content: '';
+   background-color: var(--primary-button);
+   border-radius: 25%;
+   position: absolute;
+   bottom: 3px;
+   left: 0px;
+   width: 0;
+   height: 1.5px;
+   transition: .3s ease-in-out;
+}
+
+#nav .nav-link:hover {
+   color: var(--primary-button);
+}
+
+.nav-item:hover .nav-link::after {
+   width: 100%;
+}
+
+.a-active {
+   color: var(--primary-button);
+}
+
+.a-after-active {
+   width: 100%;
+}
+
+#nav .nav-button .nav-link{
+   background-color: var(--primary-button);
+   border-radius: 20px;
+   padding: 6px 20px;
+   transition: .3s ease;
+}
+
+#nav .nav-button .nav-link:hover{
+   background-color: var(--hover-primary-button);
+   color: unset;
+}
+
+.custom-toggler .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(35,188,160, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus {
+   box-shadow: 0 0 0 0.2rem var(--primary-button);
+}
+/* End of Nav */
+
+
+/* Section Heading */
+.mybtn {
+   border-radius: 40px;
+   padding: 9px 20px;
+   border: unset;
+}
+
+.mybtn-primary {
+   background-color: var(--primary-button);
+}
+
+.mybtn-primary:hover {
+   background-color: var(--hover-primary-button);
+}
+
+.mybtn-secondary {
+   background-color: transparent;
+   color: rgb(38, 38, 38);
+   font-weight: 400;
+   color: var(--text);
+}
+
+.mybtn-secondary img:last-child {
+   display: none;
+}
+
+.mybtn-secondary:hover {
+   color: var(--text);
+   font-weight: 500;
+}
+
+.mybtn-secondary:hover img:first-child {
+   display: none;
+}
+
+.mybtn-secondary:hover img:last-child {
+   display: inline-block;
+}
+/* End of Heading */
+
+/* Section Why */
+.why h3, .services h3 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+}
+
+.why .why-box {
+   background-color: var(--background-secondary);
+   border-radius: 8px;
+   cursor:default;
+}
+
+.why .why-box p {
+   font-size: 13px;
+}
+
+.why .why-box:hover h3 {
+   color: var(--primary-button);
+}
+/* End of Why */
+
+/* Service */
+.services {
+   background-color: var(--background-secondary);
+}
+
+.service-box {
+   background-color: white;
+   max-width: 300px;
+   width: 100%;
+   overflow: hidden;
+}
+
+
+.service-box p {
+   font-family: 'Poppins';
+   font-size: 14px;
+}
+
+.service-box .service-box-img {
+   width: 100%;
+   max-height: 200px;
+   overflow: hidden;
+}
+/* End of Services */
+
+/* About Us */
+.members .service-box:hover {
+   transition: .4s ease;
+   transform: scale(1.03);
+   box-shadow: 0 0 20px 5px rgba(0, 0, 0, .3);   
+}
+/* aend of About Us */
+
+/* Footer */
+footer {
+   background-color: var(--text);
+}
+
+.footer-icons a img {
+   width: 50px;
+}
+
+.footer-text {
+   max-width: 450px;
+   width: 100%;
+}
+
+.footer-text ul {
+   /* background-color: red; */
+
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   column-gap: 30px;
+   row-gap: 20px;
+}
+
+.footer-text li {
+   list-style-type: none;
+}
+
+.footer-text a {
+   text-decoration: none;
+   color: white;
+   font-weight: 600;
+}
+
+.footer-text a:hover {
+   color: white;
+   text-decoration: underline;
+}
+/* End of Footer */
+
+
+
+
+/* others */
+.header-section h2 {
+   width: fit-content; 
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   padding: 0 5px;
+   background: linear-gradient( to bottom, transparent 70%, var(--accent) 30%);
+   margin-bottom: 25px;
+}
+
+
+
+
+/* BREAKPOINT */
+@media (max-width: 991px) {
+   .heading div {
+      flex-direction: column;
+      padding-inline: 12px;
+   }
+
+   .heading div div:first-child {
+      order: 2;
+      text-align: center;
+   }
+   .heading div div:last-child {
+      order: 1;
+      width: 80%;
+   }
+
+   .heading h1 {
+      font-size: 1.8rem;
+   }  
+}
+
+@media (max-width: 576px) {
+   .footer-icons a img {
+      width: 30px;
+   }
+
+   .footer-text {
+      font-size: .7rem;
+   }
+}
