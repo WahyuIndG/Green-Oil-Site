@@ -234,8 +234,21 @@ footer {
    margin-bottom: 25px;
 }
 
+.loader-background {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   /* background-color: var(--background-secondary); */
+   background-color: var(--background);
+   display: flex;
+   z-index: 2;
+}
 
-
+.loader-icon {
+   margin: auto;
+}
 
 /* BREAKPOINT */
 @media (max-width: 991px) {
