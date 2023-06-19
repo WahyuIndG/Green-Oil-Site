@@ -14,4 +14,6 @@ window.addEventListener('hashchange', () => {
 window.addEventListener('load', () => {
    document.querySelector('.loader-background').style.display = 'none';
    app.renderPage();
-})
+});
+
+

@@ -6,7 +6,6 @@ const OilBank = {
             <div class="col-lg-7 col-12 text-wrap">
                <h1 class="fw-bold mb-3">A Clean and Healthy Environment is Everyone's Right.</h1>
                <p class="mb-5" >Therefore, we must keep the environment clean to avoid various diseases. A clean and healthy environment can also improve the quality of human life</p>
-               <button type="button" class="mybtn mybtn-primary">Dive Into It</button>
             </div>   
             <div class="col-lg-5 col-12 d-flex">
                <img src="assets/img4.png" alt="heading image" style="margin: auto; width: 80%;">
@@ -43,7 +42,7 @@ const OilBank = {
             </div>
          </div>
       </section>
-
+      
       <section class="services p-5 mb-5 rounded-2">
          <div class="header-section d-flex flex-column align-items-center mb-4">
             <h2 class="fs-1">Form</h2>
@@ -90,7 +89,7 @@ const OilBank = {
                         <p>Hopefullly you can share your journey to the othe for contribution to our future world 😁</p>
                      </div>
                      <div class="footer text-center">
-                        <button class="btn btn-success" data-bs-toggle="modal" id="printButton">OK</button>
+                        <button class="btn btn-success" data-bs-toggle="modal" id="okButton">OK</button>
                      </div>
                   </div>
                </div>

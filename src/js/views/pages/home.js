@@ -6,12 +6,12 @@ const Home = {
             <div class="col-lg-7 col-12 text-wrap">
                <h1 class="fw-bold mb-3">Awesome Ideas For The Enviroment</h1>
                <p class="mb-5" >We are team that provide great future of the earth Lorem ipsum dolor sit amet consectetur adipisicing elit global expert.</p>
-               <button type="button" class="mybtn mybtn-primary">Get Started</button>
-               <button type="button" class="mybtn mybtn-secondary">
+               <a type="button" href="#why" class="mybtn mybtn-primary">Get Started</a>
+               <a type="button" href="#/oilbank" class="mybtn mybtn-secondary">
                   <img src="assets/icons/secondary.svg" alt="recycle" width="28px">
                   <img src="assets/icons/secondary-hover.svg" alt="recycle" width="28px">
                   Recycle Now
-               </button>
+               </a>
             </div>   
             <div class="col-lg-5 col-12 d-flex">
                <img src="assets/img3.png" alt="heading image" style="margin: auto; width: 80%;">
@@ -19,7 +19,7 @@ const Home = {
          </div>
       </section>
 
-      <section class="why py-5 mb-5">
+      <section class="why py-5 mb-5" id="why">
          <div class="header-section d-flex flex-column align-items-center mb-4">
             <h2 class="fs-1">Eminence</h2>
             <p class="col-lg-6 col-10 text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. At porro aliquam delectus perferendis eum neque.</p>
@@ -56,7 +56,7 @@ const Home = {
          </div>
          <div class="row gy-5">
             <div class="col-lg-4 col-sm-6 col-12 d-flex flex-column align-items-center">
-               <div class="service-box rounded-2">
+               <div class="service-box rounded-2 h-100">
                   <div class="service-box-img">
                      <img src="assets/service-storage.png" alt="service image">
                   </div>
@@ -67,7 +67,7 @@ const Home = {
                </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-12 d-flex flex-column align-items-center">
-               <div class="service-box rounded-2">
+               <div class="service-box rounded-2 h-100">
                   <div class="service-box-img">
                      <img src="assets/service-delivery.jpg" alt="service image">
                   </div>
@@ -79,7 +79,7 @@ const Home = {
             </div>
             <div class="col-lg-4 col-sm-6 col-12 d-flex flex-column align-items-center">
                <div class="service-box rounded-2">
-                  <div class="service-box-img">
+                  <div class="service-box-img h-100">
                      <img src="assets/service-payment.jpg" alt="service image">
                   </div>
                   <div class="service-box-desc p-4 d-flex flex-column align-items-center text-center">
@@ -96,7 +96,7 @@ const Home = {
             <div class="col-lg-7 col-12 text-wrap">
                <h2 class="fw-bold mb-3">From Great Contribution Come Great Existence</h2>
                <p class="mb-5" >A clean and healthy environment can also improve the quality of human life. Clean air and clear water will make us feel healthier and more comfortable.</p>
-               <button type="button" class="mybtn mybtn-primary">Start Now</button>
+               <a href="#/oilbank" class="mybtn mybtn-primary">Start Now</a>
             </div>   
             <div class="col-lg-5 col-12 d-flex">
                <img src="assets/img5.png" alt="heading image" style="margin: auto; width: 80%;">

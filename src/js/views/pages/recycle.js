@@ -6,7 +6,6 @@ const Recycle = {
             <div class="col-lg-7 col-12 text-wrap">
                <h1 class="fw-bold mb-3">Waste Cooking Oil Recycle</h1>
                <p class="mb-5" >The environment clean to avoid various diseases. A clean and healthy environment can also improve the quality of human life Therefore, we must keep </p>
-               <button type="button" class="mybtn mybtn-primary">Recycle Oil</button>
             </div>   
             <div class="col-lg-5 col-12 d-flex">
                <img src="assets/img2.jpg" alt="heading image" style="margin: auto; width: 80%;">
@@ -31,21 +30,21 @@ const Recycle = {
          </div>
          <div class="row"> 
             <div class="col-lg-4 col-sm-6 p-3 d-flex flex-column align-items-center " >
-               <div class="why-box px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
+               <div class="why-box h-100 px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
                   <img src="https://img.icons8.com/external-icongeek26-outline-icongeek26/64/000000/external-detergent-lifestyle-icongeek26-outline-icongeek26.png" alt="external-detergent-lifestyle-icongeek26-outline-icongeek26" width="50px" class="mb-2">
                   <h3>Laundry detergent</h3>
                   <p style="font-size: 12px">Laundry soap from used cooking oil can be used as an alternative. Making this soap mixes used cooking oil with NaOH or caustic soda and adds additional aroma. This washing soap is powerful enough to remove stubborn stains on cutlery.</p>
                </div>
             </div>
             <div class="col-lg-4 col-sm-6 p-3 d-flex flex-column align-items-center " >
-               <div class="why-box px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
+               <div class="why-box h-100 px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
                   <img src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-fertilizer-farming-and-agriculture-wanicon-lineal-color-wanicon.png"
                   alt="external-fertilizer-farming-and-agriculture-wanicon-lineal-color-wanicon" width="50px" class="mb-2">
                   <h3>Additional Fertilizer</h3>
                   <p style="font-size: 12px">This additional fertilizer preparation comes from the saturated fatty acids contained in used cooking oil. The main ingredients for making this additional fertilizer are used cooking oil, EM4 Microorganisms, and Molasses/Cane Molasses. This fertilizer is made in approximately 30 days.</p>               </div>
             </div>
             <div class="col-lg-4 col-sm-6 p-3 d-flex flex-column align-items-center " >
-               <div class="why-box px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
+               <div class="why-box h-100 px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
                   <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-seed-farm-flaticons-flat-flat-icons-2.png"
                   alt="external-seed-farm-flaticons-flat-flat-icons-2" width="50px" class="mb-2">
                   <h3>Poultry Feed</h3>
@@ -53,7 +52,7 @@ const Recycle = {
                </div>
             </div>
             <div class="col-lg-4 col-sm-6 p-3 d-flex flex-column align-items-center " >
-               <div class="why-box px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
+               <div class="why-box h-100 px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
                   <img src="https://img.icons8.com/external-wanicon-two-tone-wanicon/64/external-mop-cleaning-wanicon-two-tone-wanicon.png"
                   alt="external-mop-cleaning-wanicon-two-tone-wanicon"  width="50px" class="mb-2">
                   <h3>Floor Cleaning Liquid</h3>
@@ -61,7 +60,7 @@ const Recycle = {
                </div>
             </div>
             <div class="col-lg-4 col-sm-6 p-3 d-flex flex-column align-items-center" >
-               <div class="why-box px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
+               <div class="why-box h-100 px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
                   <img src="https://img.icons8.com/external-ddara-flat-ddara/64/external-aromatic-candle-beauty-and-spa-ddara-flat-ddara.png"
                   alt="external-aromatic-candle-beauty-and-spa-ddara-flat-ddara" width="50px" class="mb-2">
                   <h3>Aroma therapy</h3>
@@ -69,7 +68,7 @@ const Recycle = {
                </div>
             </div>
             <div class="col-lg-4 col-sm-6 p-3 d-flex flex-column align-items-center" >
-               <div class="why-box px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
+               <div class="why-box h-100 px-4 pt-4 pb-2 p-2 rounded-3 text-center" style="background-color: white;">
                   <img src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/external-fuel-ecology-icongeek26-linear-colour-icongeek26-1.png"
                   alt="external-fuel-ecology-icongeek26-linear-colour-icongeek26-1"  width="50px" class="mb-2">
                   <h3>Biosolar Fuel</h3>

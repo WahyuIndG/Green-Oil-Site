@@ -88,6 +88,8 @@ button.navbar-toggler {
    border-radius: 40px;
    padding: 9px 20px;
    border: unset;
+   text-decoration: none;
+   color: inherit;
 }
 
 .mybtn-primary {
